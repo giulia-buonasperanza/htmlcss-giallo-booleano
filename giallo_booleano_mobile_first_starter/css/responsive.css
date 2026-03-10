@@ -113,4 +113,17 @@
 	}
 }
 
+/*Video e info accanto*/
 
+@media screen and (min-width:993px){
+
+.recipe-card {
+	display: flex;
+}
+
+.recipe-video {
+	height: 40vw;
+	min-width: 75%;
+	flex-shrink: 0;}
+
+}
