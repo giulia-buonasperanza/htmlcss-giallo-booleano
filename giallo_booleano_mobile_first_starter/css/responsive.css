@@ -85,3 +85,19 @@ padding:10px 15px;
 	margin: 30px auto;
 }
 }
+
+/*Testo attorno all'immagine*/
+
+
+@media screen and (min-width:769px) {
+.presentation {
+	display:flow-root
+}
+.presentation img {
+	
+	float:left;
+	width:300px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+}
