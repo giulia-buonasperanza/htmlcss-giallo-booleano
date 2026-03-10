@@ -99,3 +99,18 @@
 			margin-bottom: 10px;
 		}
 	}
+
+
+
+	/*Modalità Deckstop (sopra i 993px)*/
+
+/*Aumento grandezza titolo*/
+
+@media screen and (min-width:993px) {
+
+	.recipe-name {
+	font-size: 40px;
+	}
+}
+
+
