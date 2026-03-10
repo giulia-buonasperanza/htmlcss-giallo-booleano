@@ -31,11 +31,57 @@ main {
 
 /*Aumento grandezza titolo*/
 
-
 @media screen and (min-width:769px) {
 
 .recipe-name {
 	
 	font-size:30px;
+}
+}
+
+
+/*Info ricetta a griglia*/
+
+@media screen and (min-width:769px) {
+
+
+/*.quick-notes li {
+	display: inline-block;
+	margin:20px 30px;
+}*/
+
+/*.quick-notes {
+	display: flex;
+	flex-wrap: wrap;
+}
+.quick-notes li {
+	flex-basis: calc(100% / 3);
+	flex-shrink: 0;
+	min-width: 250px;
+	width: 100%;
+}
+}*/
+
+/*Bottoni*/
+
+@media screen and (min-width:769px) {
+
+.btn {
+	
+	padding:10px 70px;
+	transition: 0.3s;
+}
+
+.btn-orange {
+	
+padding:10px 15px;
+}
+}
+
+/*Banner*/
+@media screen and (min-width:769px) {
+.ads {
+	display: block;
+	margin: 30px auto;
 }
 }
