@@ -127,3 +127,16 @@
 	flex-shrink: 0;}
 
 }
+
+
+/*Nomi piattaforme social*/
+
+@media screen and (min-width:993px) {
+
+	.btn {
+		padding: 10px 15px;
+		}
+	.social-networks .label {
+		display: inline;
+}
+}
