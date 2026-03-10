@@ -4,100 +4,98 @@
 
 /*Comparsa scritta "Dolce tradizionale"*/
 
-@media screen and (min-width:769px) {
-    
-.recipe-origin {
-	display: inline;
-}
+	@media screen and (min-width:769px) {
+
+		.recipe-origin {
+		display: inline;
+	}
 
 /*Alliniamwento a sinistra logo header*/
 
-@media screen and (min-width:769px) {
+	@media screen and (min-width:769px) {}
 
-}#topbar {
-	
-	justify-content: left;
-}
+		#topbar {
+		justify-content: left;
+	}
 }
 
 /*Aumento padding contenuto principale*/
 
 @media screen and (min-width:769px) {
-    
-main {
-		padding: 40px;
-}
+
+	main {
+	padding: 40px;
+	}
 }
 
 /*Aumento grandezza titolo*/
 
 @media screen and (min-width:769px) {
 
-.recipe-name {
-	
-	font-size:30px;
+	.recipe-name {
+	font-size: 30px;
+	}
 }
-}
-
 
 /*Info ricetta a griglia*/
 
 @media screen and (min-width:769px) {
 
 
-/*.quick-notes li {
+	/*.quick-notes li {
 	display: inline-block;
 	margin:20px 30px;
-}*/
+	}*/
 
-/*.quick-notes {
+	/*.quick-notes {
 	display: flex;
 	flex-wrap: wrap;
-}
-.quick-notes li {
+	}
+	.quick-notes li {
 	flex-basis: calc(100% / 3);
 	flex-shrink: 0;
 	min-width: 250px;
 	width: 100%;
+	}*/
 }
-}*/
+/*provate 2 opzioni ma per ora nessuna delle due mi soddisfa.*/
+
+
 
 /*Bottoni*/
 
-@media screen and (min-width:769px) {
+	@media screen and (min-width:769px) {
 
-.btn {
-	
-	padding:10px 70px;
-	transition: 0.3s;
-}
+		.btn {
+			padding: 10px 70px;
+			transition: 0.3s;
+		}
 
-.btn-orange {
-	
-padding:10px 15px;
-}
-}
+		.btn-orange {
+			padding: 10px 15px;
+		}
+	}
 
 /*Banner*/
-@media screen and (min-width:769px) {
-.ads {
-	display: block;
-	margin: 30px auto;
-}
-}
+	
+	@media screen and (min-width:769px) {
+		.ads {
+			display: block;
+			margin: 30px auto;
+		}
+	}
 
 /*Testo attorno all'immagine*/
 
+	@media screen and (min-width:769px) {
+		.presentation {
+			display: flow-root
+		}
 
-@media screen and (min-width:769px) {
-.presentation {
-	display:flow-root
-}
-.presentation img {
-	
-	float:left;
-	width:300px;
-	margin-right:20px;
-	margin-bottom:10px;
-}
-}
+		.presentation img {
+			float: left;
+			width: 300px;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+	}
