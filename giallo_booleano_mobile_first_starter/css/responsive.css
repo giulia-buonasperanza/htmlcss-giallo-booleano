@@ -19,3 +19,12 @@
 	justify-content: left;
 }
 }
+
+/*Aumento padding contenuto principale*/
+
+@media screen and (min-width:769px) {
+    
+main {
+		padding: 40px;
+}
+}
