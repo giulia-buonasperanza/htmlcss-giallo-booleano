@@ -2,9 +2,20 @@
 
 /*Modalità Tablet (sopra i 768px)*/
 
+/*Comparsa scritta "Dolce tradizionale"*/
+
 @media screen and (min-width:769px) {
     
 .recipe-origin {
 	display: inline;
+}
+
+/*Alliniamwento a sinistra logo header*/
+
+@media screen and (min-width:769px) {
+
+}#topbar {
+	
+	justify-content: left;
 }
 }
