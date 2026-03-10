@@ -140,3 +140,14 @@
 		display: inline;
 }
 }
+
+/*Footer*/
+
+@media screen and (min-width:993px){
+
+	footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+}
